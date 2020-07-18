@@ -51,7 +51,7 @@ export default Vue.extend({
         };
     },
     computed: {
-        currentRouteName(): string | undefined {
+        currentRouteName(): string | null | undefined {
             return this.$route.name;
         },
     },
