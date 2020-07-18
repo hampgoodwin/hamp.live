@@ -1,0 +1,31 @@
+@import url('/assets/fonts/Lato/stylesheet.css');
+
+$font-color-primary: #24292e;
+$font-color-secondary: #f5f5f5; // rgba(245, 245, 245, 1)
+$font-color-tertiary: #606e7b; // rgba(96, 110, 123, 1)
+
+$color-primary: #24292e;
+$color-secondary: #f5f5f5; // rgba(245, 245, 245, 1)
+$color-tertiary: #3a434b;
+
+$background: rgba(245, 245, 245, .3);
+
+$banner-fade: linear-gradient(to right,rgba(36,41,46,1), rgba(58, 67, 75, .90));
+
+@mixin flex($dir, $jc-pos, $ai-pos) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $jc-pos;
+    align-items: $ai-pos;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    @include flex(column, flex-start, center);
+    padding: 7vmin 0 0 0;
+    height: 100%;
+    box-sizing: border-box;
+}
