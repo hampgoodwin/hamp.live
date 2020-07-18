@@ -3,7 +3,6 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Resume from './views/Resume.vue';
 import Portfolio from './views/Portfolio.vue';
-import Blog from './views/Blog.vue';
 import Contact from './views/Contact.vue';
 import NotFoundComponent from './shared/error/NotFoundComponent.vue';
 
@@ -28,11 +27,6 @@ export default new Router({
       path: '/portfolio',
       name: 'portfolio',
       component: Portfolio,
-    },
-    {
-      path: '/blog',
-      name: 'blog',
-      component: Blog,
     },
     {
       path: '/contact',

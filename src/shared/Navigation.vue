@@ -21,14 +21,14 @@
             <div class="navigation-item-selector"
                 :class="{'navigation-item-selected': currentRouteName === 'portfolio'}"></div>
         </router-link>
-        <router-link tag="div" :to="{ name: 'blog' }" class="navigation-item">
+        <!-- <router-link tag="div" :to="{ name: 'blog' }" class="navigation-item">
             <div class="navigation-item-label"
                 :class="{'selected': currentRouteName ==='blog'}">
                 Blog
             </div>
             <div class="navigation-item-selector"
                 :class="{'navigation-item-selected': currentRouteName === 'blog'}"></div>
-        </router-link>
+        </router-link> -->
         <router-link tag="div" :to="{ name: 'contact' }" class="navigation-item">
             <div class="navigation-item-label"
                 :class="{'selected': currentRouteName ==='contact'}">
