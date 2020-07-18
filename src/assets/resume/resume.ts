@@ -12,7 +12,7 @@ export const Resume: rType.Resume = {
             endDate: 'Current',
             location: {
                 city: 'Remote',
-                state: '',
+                state: 'USA',
                 country: '',
             },
             accomplishments: [

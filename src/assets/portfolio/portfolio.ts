@@ -15,5 +15,21 @@ export const Portfolio: pType.Portfolio = {
                 { name: 'Go' },
             ],
         },
+        {
+            title: 'Personal Site',
+            subtitle: 'Vue & Typescript personal site with blog',
+            description: 'I wanted to keep my frontend chops so I revamped my personal page and added a blog page. I also thought it was about time to update my resume and portfolio information.',
+            hero: '',
+            faIcon: 'vuejs',
+            faIconGroup: 'fab',
+            source: 'https://github.com/abelgoodwin1988/hamp.live',
+            website: '',
+            technologies: [
+                { name: 'Vue', faIcon: 'vuejs', faIconGroup: 'fab' },
+                { name: 'TypeScript' },
+                { name: 'JS', faIcon: 'js', faIconGroup: 'fab' },
+                { name: 'UX/UI' },
+            ],
+        },
     ],
 };
