@@ -44,7 +44,7 @@ export interface Skill {
 
 type SkillCategory = string;
 
-interface Course {
+export interface Course {
     medium: string;
     category: string;
     name: string;

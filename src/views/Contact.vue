@@ -14,7 +14,7 @@
         <a href="https://github.com/abelgoodwin1988" class='contact'>
             <font-awesome-icon class="fa-icon" :icon="['fab', 'github-alt']" />
         </a>
-        <a href="https://www.linkedin.com/in/abelgoodwin/" class='contact'>
+        <a href="https://www.linkedin.com/in/hampgoodwin/" class='contact'>
             <font-awesome-icon class="fa-icon" :icon="['fab', 'linkedin-in']" />
         </a>
         <a href="https://www.twitch.tv/hamp_tv/" class='contact'>

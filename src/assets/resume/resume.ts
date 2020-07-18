@@ -3,15 +3,46 @@ import * as rType from './resume.model';
 const moment = require('moment');
 /* tslint:disable: max-line-length */
 export const Resume: rType.Resume = {
-    summary: `Accomplished data engineer, primarily focused in database development, programming middleware, designing, developing, deploying and maintaining solutions on cloud platforms. Implement custom ETL and platform ETL solutions and cloud migration solutions.
-Technical knowledge in developing and maintaining applications on AWS.
-Interested in further developing technical skills in Data Engineering Domains including analytics as well as Full Stack Development.`,
+    summary: `Well rounded software engineer with experience in cloud operations, data engineering, modern frontend frameworks and backend api's. I love Go, well-architected data pipelines, no fear deploys, sane infrastructure and code conventions, well maintained open-source software and olympic weightlifting. I cook a mean green-curry, enjoy sharing it and enjoy even more bragging about it. `,
     experience: [
+        {
+            company: 'Walmart Labs',
+            position: 'Software Engineer',
+            startDate: moment('2019-06-1', 'YYYY-MM-DD'),
+            endDate: 'Current',
+            location: {
+                city: 'Remote',
+                state: '',
+                country: '',
+            },
+            accomplishments: [
+                'Engineered internal metrics aggregator to exposure network hops and system health for requests to WalMart ECommerce sites.',
+                'Improvements to software that any WalMart ECommerce request flows through.',
+                'Improvements to partially-manual deployment processes saving time and icnreasing reliability',
+                'Modernization of base and build images used for key Walmart ECommerce images',
+                'Cross-team and cross-timezone work',
+            ],
+            technologies: [
+                { name: 'Go' },
+                { name: 'MySQL' },
+                { name: 'Logging' },
+                { name: 'Metrics' },
+                { name: 'API' },
+                { name: 'Networking' },
+                { name: 'Docker' },
+                { name: 'Manual Deployment' },
+                { name: 'Terraform' },
+                { name: 'Consul' },
+                { name: 'Linux', faIcon: 'linux', faIconGroup: 'fab' },
+                { name: 'Data Modeling', faIcon: 'database', faIconGroup: 'fas' },
+                { name: 'Version Control', faIcon: 'code-branch', faIconGroup: 'fas' },
+            ],
+        },
         {
             company: 'Devetry',
             position: 'Software Engineer',
             startDate: moment('2018-09-1', 'YYYY-MM-DD'),
-            endDate: 'Current',
+            endDate: moment('2019-06-1', 'YYYY-MM-DD'),
             location: {
                 city: 'Denver',
                 state: 'Colorado',
@@ -20,7 +51,7 @@ Interested in further developing technical skills in Data Engineering Domains in
             accomplishments: [
                 'Created dashboards for IoT Energy Data to be used for energy awareness. Designed and implements data models to be received by Vue front-end application via websocket for storage in Vuex and consumption for dashboard components. Created custom SVG/D3 graphs. Designed all aspects of Vue front-end application.',
                 'Created Airline booking web application in Angular and Typescript which receives guests from Back End application, searches flights per guest\'s program specifications and user input.User sorts, filters flights, selects and books them.',
-                'Created NodeJS 3rd party application integrations ',
+                'Created NodeJS 3rd party application integrations.',
             ],
             technologies: [
                 { name: 'Vue', faIcon: 'vuejs', faIconGroup: 'fab' },
@@ -155,6 +186,9 @@ Interested in further developing technical skills in Data Engineering Domains in
         { name: 'Database Administration', category: 'Data Engineering' },
         { name: 'TypeScript', category: 'Software Engineering' },
         { name: 'JavaScript', category: 'Software Engineering' },
+        { name: 'Go', category: 'Software Engineering' },
+        { name: 'Saltstack', category: 'Software Engineering' },
+        { name: 'Test Driven Development', category: 'Software Engineering' },
         { name: 'Angular', category: 'Software Engineering' },
         { name: 'Vue', category: 'Software Engineering' },
         { name: 'Python', category: 'Software Engineering' },
@@ -172,9 +206,21 @@ Interested in further developing technical skills in Data Engineering Domains in
         { name: 'Database Migration Services', category: 'Cloud' },
         { name: 'Quicksight', category: 'Cloud' },
         { name: 'Cloud SQL', category: 'Cloud' },
-
+        { name: 'Identity Access & Management', category: 'Cloud' },
     ],
     courses: [
+        {
+            medium: 'Online',
+            category: '',
+            name: 'gRPC Golang',
+            url: 'https://www.udemy.com/course/grpc-golang',
+        },
+        {
+            medium: 'Online',
+            category: '',
+            name: 'Docker Mastery',
+            url: 'https://www.udemy.com/course/docker-mastery',
+        },
         {
             medium: 'Online',
             category: '',
@@ -226,8 +272,8 @@ Interested in further developing technical skills in Data Engineering Domains in
         {
             medium: 'Online',
             category: '',
-            name: 'https://www.udemy.com/microsoft-sql-server-2012-certification-70-461/learn/v4/content',
-            url: 'Microsoft SQL Server 2012 Certification Training Exam 70-461, Advanced Querying (SQL Server)',
+            name: 'Microsoft SQL Server 2012 Certification Training Exam 70-461, Advanced Querying (SQL Server)',
+            url: 'https://www.udemy.com/microsoft-sql-server-2012-certification-70-461/learn/v4/content',
         },
         {
             medium: 'Online',

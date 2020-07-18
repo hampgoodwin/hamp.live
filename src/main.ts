@@ -27,6 +27,7 @@ import {
   faNpm,
   faMicrosoft,
   faGoogle,
+  faLinux,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -58,6 +59,7 @@ library.add(
   faNpm,
   faMicrosoft,
   faGoogle,
+  faLinux,
 );
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);

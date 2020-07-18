@@ -19,6 +19,10 @@
             <Skills :skills="resume.skills"
                 class="section"/>
         </template>
+        <template v-if="resume.hasOwnProperty('courses') && resume.courses.length > 0">
+            <Courses :courses="resume.courses"
+                class="section"/>
+        </template>
     </div>
 </template>
 
@@ -28,6 +32,7 @@ import Experience from '@/components/Resume/Experience/Experience.vue';
 import Education from '@/components/Resume/Education/Education.vue';
 import Certificates from '@/components/Resume/Certificate/Certificates.vue';
 import Skills from '@/components/Resume/Skills/Skills.vue';
+import Courses from '@/components/Resume/Courses/Courses.vue';
 import { Resume } from '@/assets/resume/resume';
 import * as rType from '@/assets/resume/resume.model';
 
@@ -44,6 +49,7 @@ export default Vue.extend({
         Education,
         Certificates,
         Skills,
+        Courses,
     },
 });
 

@@ -5,10 +5,8 @@
         <div class="it-you">It's nice to meet you</div>
         <div class="look">Have a look around!</div>
         <div class="interests">
-            I'm currently looking for:
             <ul class="interests-list">
                 <li class="interests-item">
-                    Opportunities to contribute to OpenSource Projects
                 </li>
             </ul>
         </div>
