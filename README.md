@@ -1,3 +1,3 @@
 # hamp.live
 
-Abel (Hamp) Goodwin's personal website code-base.
+Hamp Goodwin's personal website code-base.
