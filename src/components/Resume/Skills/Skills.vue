@@ -95,7 +95,7 @@ export default Vue.extend({
 
             .skill-groups{
                 @include flex(column, center, flex-start);
-                width: 23%;
+                width: 31%;
                 
                 @media screen and (max-width:960px) {
                     width: 100%;
